@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Fonts/IRANYekanXVF.ttf);
+}
+
+body{
+    /* background-color: rgb(85, 128, 236); */
+    background-color: #0d98ba;
+    font-family: myFont;
+}
+.contianer{
+    background-color: #fff;
+   padding: 40px;
+   border-radius: 8px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 20% auto;
+}
+
+.searchBox{
+    display: flex;
+}
+.searchBox input{
+   margin-right: 20px; 
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #000 ;
+}
+.searchBox button{
+    border-radius: 10px;
+    border: none;
+    background-color: #0d98ba;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #fff;
+}
+/* --------------------- */
+
+.contryInfo{
+    max-width: 300px;
+    min-height: 300px;
+    margin-top: 50px;
+    background-color: rgb(165, 165, 165);
+    display: none;
+    
+}
+
+.flag{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.text-info{
+display: flex;
+flex-direction: column;
+}
+.text-info h3{
+    margin: 10px;
+}
+.text-info span{
+    margin: 10px;
+}
